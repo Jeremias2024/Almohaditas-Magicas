@@ -1,0 +1,3774 @@
+@Keyframes FadeIn {
+    from {
+        opacity: 0;
+    }
+
+    to { opacity: 1;
+    }
+}
+
+@keyframes bounceInAnimation {
+    0% {
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+    50% {
+        opacity: 0.8;
+        transform: translateY(10px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes bounceInReverseAnimation {
+    0% {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    50% {
+        opacity: 0.8;
+        transform: translateY(-10px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes fadeUpAnimation {
+    0% {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@font-face {
+    font-family: 'Calibri';
+    src: url('Assets/calibri.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: "CalibriItalic";
+    src: url("Assets/calibrili.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: 'PoppinsB';
+    src: url('Assets/Poppins-Bold.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'PoppinsR';
+    src: url('Assets/Poppins-Regular.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'PRIMETIME';
+    src: url('Assets/PRIMETIME\ ©\ PERSONAL\ USE\ ONLY.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: "Montserrat";
+    src: url("Assets/Montserrat-Regular.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "MontserratSB";
+    src: url("Assets/Montserrat-SemiBold.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "Calibri1";
+    src: url("Assets/calibri.ttf") format("truetype");
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: #F8F0E5;
+    margin: 0;
+    padding: 0;
+    max-width: 100vw;
+    height:100%;
+}
+
+header {
+    animation-name: FadeIn;
+    animation-duration: 1s;
+    animation-timing-function: ease-in;
+    animation-delay: 0s;
+    animation-iteration-count: 1;
+    animation-direction: normal;
+    animation-fill-mode: none;
+    background-color: #EADBC8;
+    border-end-end-radius: 15px;
+    border-end-start-radius: 15px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+    border: 3px solid #DAC0A3;
+    padding: 13px;
+    position: fixed;
+    top: -2px;
+    left: 50%;
+    transform:translateX(-50%);
+    max-width: 30rem;
+    text-align: center;
+    font-size: 1.2rem;
+    z-index: 10;
+
+}
+
+nav a {
+    text-decoration: none;
+    color: #B79269;
+    margin: 10px;
+    font-family: 'Montserrat', sans-serif;
+    transition-duration: 0.4s;
+    transition-timing-function: ease-in-out;
+}
+
+nav a:hover {
+    color: #DAC0A3;
+}
+
+#Panel1 {
+    background-color: #DCC9B4;
+    height: 70rem;
+    margin-top: 0px;
+    display: grid;
+    align-items: center;
+    clip-path: polygon(100% 0%, 0% 0% , 0.00% 89.27%, 2.50% 88.75%, 5.00% 88.24%, 7.50% 87.76%, 10.00% 87.35%, 12.50% 87.01%, 15.00% 86.79%, 17.50% 86.68%, 20.00% 86.69%, 22.50% 86.82%, 25.00% 87.07%, 27.50% 87.42%, 30.00% 87.85%, 32.50% 88.33%, 35.00% 88.85%, 37.50% 89.37%, 40.00% 89.86%, 42.50% 90.30%, 45.00% 90.66%, 47.50% 90.93%, 50.00% 91.08%, 52.50% 91.11%, 55.00% 91.01%, 57.50% 90.80%, 60.00% 90.49%, 62.50% 90.08%, 65.00% 89.61%, 67.50% 89.10%, 70.00% 88.58%, 72.50% 88.07%, 75.00% 87.61%, 77.50% 87.22%, 80.00% 86.93%, 82.50% 86.74%, 85.00% 86.67%, 87.50% 86.72%, 90.00% 86.89%, 92.50% 87.17%, 95.00% 87.55%, 97.50% 88.00%, 100.00% 88.50%);
+}
+
+#Título {
+    animation: bounceInAnimation 1s ease;
+    display: grid;
+    justify-content: center;
+    font-family: "PRIMETIME";
+    font-size: 9rem;
+    color:  #C59C6E ;
+    z-index: 1;
+    margin-top: -70px;
+}
+
+#Almohadilla {
+    animation: bounceInAnimation 1.5s ease;
+    display: block;
+    margin: 0 auto;
+    margin-top: -235px;
+
+}
+
+#grupo1 h2 {
+    animation: bounceInAnimation 1s ease;
+    display: grid;
+    justify-content: center;
+    font-family: "PoppinsB";
+    font-weight: bolder;
+    font-size: 2.5rem;
+    color: white;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.4)
+}
+
+#grupo1 p {
+    animation: bounceInAnimation 1.5s ease;
+    margin: 0 auto;
+    margin-top: -25px;
+    align-items: center;
+    text-align: center;
+    font-family: "PoppinsR";
+    font-weight:400;
+    font-size:1.6rem;
+    max-width: 40rem;
+    color: #B79269;
+}
+
+#grupo1 button {
+    animation: bounceInAnimation 1s ease;
+    margin: 35px auto;
+    display: flex;
+    padding-right: 30px;
+    padding-left: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: #DAC0A3;
+    border-radius: 15px;
+    border-color: #FFE0BE;
+    border-style: solid;
+    box-shadow: 0 0 0 transparent;
+}
+
+#grupo1 a {
+    font-family: "PoppinsB";
+    font-size: 1.5rem;
+    color: white;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+    text-decoration: none;
+}
+
+#grupo1 button:active {
+    outline: none;
+    transform: translateY(2px);
+    box-shadow: inset 0 0 4px rgba(0, 0, 0, 0.2);
+}
+
+#Panel4 button a {
+    font-family: "PoppinsB";
+    font-size: 1.3rem;
+    padding: 10px;
+    color: white;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+    text-decoration: none;
+}
+
+#Panel4 button {
+    margin: 35px auto;
+    display: flex;
+    padding-right: 30px;
+    padding-left: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: #DAC0A3;
+    border-radius: 15px;
+    border-color: #FFE0BE;
+    border-style: solid;
+    box-shadow: 0 0 0 transparent;
+}
+
+#Panel4 button:active {
+    outline: none;
+    transform: translateY(2px);
+    box-shadow: inset 0 0 4px rgba(0, 0, 0, 0.2);
+}
+
+.fila {
+    height: 55rem;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 6rem 6rem;
+}
+
+.izquierda, .derecha {
+    align-self: center;
+}
+
+.izquierda {
+    justify-self: end;
+}
+
+.derecha {
+    justify-self: start;
+}
+
+.derecha h3 {
+    font-family: "MontserratSB";
+    font-size: 1.6rem;
+    font-weight: 500;
+    color:#B79269;
+    margin: 0;
+    padding-bottom: 10px;
+}
+
+.derecha p {
+    font-family: "CalibriItalic";
+    font-size: 1.3rem;
+    font-weight: 500;
+    width: 35rem;
+    color:#B79269;
+    margin: 0;
+    padding-bottom: 35px;
+}
+
+
+#Panel3 {
+    background-color: #DCC9B4;
+    height: 30rem;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.Review1,
+.Review2,
+.Review3 {
+    display:flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    width: 20%;
+    box-sizing: border-box;
+    padding: 8px;
+}
+
+.Review1 h3,
+.Review2 h3,
+.Review3 h3 {
+    font-family:"MontserratSB";
+    font-size: 1.5rem;
+    color: #B79269;
+}
+
+.Review1 p,
+.Review2 p,
+.Review3 p {
+    text-shadow: 1px 0px 2px rgba(183, 146, 105, 0.3);
+    font-family:"CalibriItalic";
+    font-weight: bold;
+    font-size: 1.2rem;
+    color: #B79269;
+    margin-top: -10px;
+}
+
+.Review1 img,
+.Review2 img,
+.Review3 img {
+    width: 7rem;
+    height: 7rem;
+    border: 4px solid #B79269;
+    border-radius: 50%;
+    box-shadow: 0px 0px 20px 3px rgba(183, 146, 105, 0.9);
+}
+
+#Estrellas1,
+#Estrellas2,
+#Estrellas3 {
+    color: orange;
+    margin-bottom: -10px;
+    margin-top: 20px;
+}
+
+#Panel4 {
+    background-color: #F8F0E5;
+    height: auto;
+    min-height: 75rem;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+#subt {
+    color: #B79269;
+    text-align: center;
+    justify-self: center;
+    font-family:"CalibriItalic";
+    font-weight: 600;
+    font-size: 1.4rem;
+    width: 600px;
+    margin-top: -20px;
+}
+
+#preg {
+    color: #B79269;
+    text-align: center;
+    font-family:"MontserratSB";
+    font-size: 2rem;
+    font-weight: 500;
+}
+   
+.acordeon h2 {
+        font-family: "MontserratSB";
+        font-weight: 500;
+        color: #B79269;
+        width: 55rem;
+        background-color: #EADBC8;
+        border-radius: 10px;
+        padding: 2rem;
+        margin: 1.2rem;
+        border: 2px solid #FFE0BE;
+        z-index: 2;
+        position: relative;
+}
+
+.acordeon .bloque {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: transparent;
+    max-width: 60rem;
+    margin: 0;
+}
+    
+.acordeon .contenido {
+        width:56rem;
+        font-family: "Calibri1";
+        color: #84592A;
+        font-weight: 500;
+        background-color: #FCE7CB;
+        border-right: 0px solid #FFE0BE; /* Cambiar a 0 para el display del acordeón. */
+        border-left: 0px solid #FFE0BE; /* Cambiar a 0 para el display del acordeón. */
+        border-bottom: 0px solid #FFE0BE; /* Cambiar a 0 para el display del acordeón. */
+        border-radius: 10px;
+        padding: 0; /* Cambiar de 1 a 0 para el acordeón */
+        height: 0; /* Cambiar a 0 para el display del acordeón */
+        opacity: 0; /* Cambiar a 0 para el display del acordeón */
+        margin: 0.5rem;
+        margin-top: -25px;
+        z-index: 1;
+        position: relative;
+        transition: all 0.5s ease-in-out;
+        overflow-block: hidden;
+}
+
+.acordeon .contenido.activo {
+    border-right: 2px solid #FFE0BE;
+    border-left: 2px solid #FFE0BE;
+    border-bottom: 2px solid #FFE0BE;
+    padding: 1rem;
+    height: auto;
+    opacity: 100;
+    transition: all 0.5s ease-in-out;
+}
+
+.acordeon h2:active,
+.acordeon h2:focus {
+    transition: all 0s ease-in-out;
+}
+
+#Panel5 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 20px;
+    align-items: center;
+    text-align: center;
+    background-color: #DCC9B4;
+    width: auto;
+}
+
+#Panel5 h2 {
+    font-family: "MontserratSB";
+    font-size: 2rem;
+    color: #B79269;
+    padding-bottom: 10px;
+}
+
+.Maps {
+    width: 75rem;
+    height: 25rem;
+    border: 2px solid #FFE0BE;
+    border-radius: 20px;
+    margin-bottom: 40px;
+}
+
+#Panel6 h2 {
+    text-align: center;
+}
+
+#Panel6 p {
+    text-align: center;
+}
+
+#Panel6 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 65rem;
+}
+
+#Panel6 h2 {
+    font-family: "MontserratSB";
+    font-size: 3rem;
+    color: #B79269
+}
+
+#Panel6 p {
+    font-family:"Calibri1";
+    font-weight: 500;
+    font-size: 1.2rem;
+    color: #B79269;
+    margin-top: -30px;
+    margin-bottom: 2rem;
+    width: 50rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+#Panel6 a {
+    color: #B79269;
+}
+
+.Formulario {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #DCC9B4;
+    border: none;
+    border-radius: 10px;
+    margin: 0 auto;
+    padding: 30px;
+    width: 53rem;
+    height: 38rem;
+}
+
+.item {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    font-size: 16px;
+  }
+
+.sec1 .item {
+    font-family: "MontserratSB";
+    font-size: 1.5rem;
+    width: 20rem;
+    background-color: #EADBC8;
+    border: 1px solid #FFE0BE;
+    padding: 35px;
+    margin: 12px;
+    animation: all 0.5s ease;
+  }
+
+.sec2 .item {
+    font-family: "MontserratSB";
+    font-size: 1.5rem;
+    width: 20rem;
+    background-color: #EADBC8;
+    border: 1px solid #FFE0BE;
+    padding: 35px;
+    margin: 12px;
+    animation: all 0.5s ease;
+  }
+
+.Formu1 textarea{
+    font-family: "MontserratSB";
+    font-size: 1.5rem;
+    text-indent: 1.7rem;
+    line-height: 4rem;
+    margin: 13px;
+    width: 49.5rem;
+    height: 16rem;
+    background-color: #EADBC8;
+    border: 1px solid #FFE0BE;
+    resize: none;
+}
+
+.Formulario input {
+    color: #B79269; 
+}
+
+.Formu1 .item {
+    color: #B79269;
+}
+
+.item::placeholder {
+    color: #B79269;
+  }
+
+.item:focus {
+    border-color: #B79269;
+    outline: none;
+    animation: all 0.5s ease;
+  }
+
+:required {
+    border-color: #e74c3c;
+  }
+
+  #Panel6 button {
+    font-family: "PoppinsB";
+    font-size: 1.3rem;
+    color: white;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+    text-decoration: none;
+    margin: 10px;
+    display: flex;
+    padding-right: 30px;
+    padding-left: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: #DAC0A3;
+    border-radius: 15px;
+    border-color: #FFE0BE;
+    border-style: solid;
+    box-shadow: 0 0 0 transparent;
+}
+
+#Panel6 button:active {
+    outline: none;
+    transform: translateY(2px);
+    box-shadow: inset 0 0 4px rgba(0, 0, 0, 0.2);
+}
+
+.float {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    width: 3rem;
+    height: 3rem;
+    background-color: #DAC0A3;
+    color: #FFF;
+    border-radius: 50%;
+    text-align: center;
+    text-decoration: none;
+    font-size: 30px;
+    box-shadow: 2px 2px 3px #999;
+    z-index: 100;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.float:hover {
+	text-decoration: none;
+	color: #DAC0A3;
+  background-color:#fff;
+}
+
+#Créditos {
+    text-align: center;
+    font-family:"Calibri1";
+    font-weight: 500;
+    font-size: 1rem;
+    color: #B79269;
+    margin-top: -30px;
+    margin-bottom: 10px;
+    width: 50rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#Créditos p {
+    margin: 5px 0;
+}
+
+
+@media (max-width: 1280px) {
+    #Panel1 {
+        background-color: #DCC9B4;
+        height: 65rem;
+        display: grid;
+        align-items: center;
+        clip-path: polygon(100% 0%, 0% 0% , 0.00% 89.27%, 2.50% 88.75%, 5.00% 88.24%, 7.50% 87.76%, 10.00% 87.35%, 12.50% 87.01%, 15.00% 86.79%, 17.50% 86.68%, 20.00% 86.69%, 22.50% 86.82%, 25.00% 87.07%, 27.50% 87.42%, 30.00% 87.85%, 32.50% 88.33%, 35.00% 88.85%, 37.50% 89.37%, 40.00% 89.86%, 42.50% 90.30%, 45.00% 90.66%, 47.50% 90.93%, 50.00% 91.08%, 52.50% 91.11%, 55.00% 91.01%, 57.50% 90.80%, 60.00% 90.49%, 62.50% 90.08%, 65.00% 89.61%, 67.50% 89.10%, 70.00% 88.58%, 72.50% 88.07%, 75.00% 87.61%, 77.50% 87.22%, 80.00% 86.93%, 82.50% 86.74%, 85.00% 86.67%, 87.50% 86.72%, 90.00% 86.89%, 92.50% 87.17%, 95.00% 87.55%, 97.50% 88.00%, 100.00% 88.50%);
+    }
+    
+    #Título {
+        animation: bounceInAnimation 1s ease;
+        display: grid;
+        justify-content: center;
+        font-family: "PRIMETIME";
+        font-size: 7rem;
+        color:  #C59C6E ;
+        z-index: 1;
+    }
+    
+    #Almohadilla {
+        width: 500px;
+        height: 350px;
+        animation: bounceInAnimation 1.5s ease;
+        display: block;
+        margin: 0 auto;
+        margin-top: -180px;
+    
+    }
+    
+    #grupo1 h2 {
+        animation: bounceInAnimation 1s ease;
+        display: grid;
+        justify-content: center;
+        font-family: "PoppinsB";
+        font-weight: 600;
+        font-size: 2rem;
+        color: white;
+        text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.4)
+    }
+    
+    #grupo1 p {
+        animation: bounceInAnimation 1.5s ease;
+        margin: 0 auto;
+        margin-top: -10px;
+        align-items: center;
+        text-align: center;
+        font-family: "PoppinsR";
+        font-weight:400;
+        font-size: 1.2rem;
+        max-width: 30rem;
+        color: #B79269;
+    }
+    
+    #grupo1 button {
+        animation: bounceInAnimation 1s ease;
+        margin: 40px auto;
+        display: flex;
+        padding-right: 30px;
+        padding-left: 30px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        background-color: #DAC0A3;
+        border-radius: 10px;
+        border-color: #FFE0BE;
+        border-style: 2px solid;
+        box-shadow: 0 0 0 transparent;
+    }
+    
+    #grupo1 a {
+        font-family: "PoppinsB";
+        font-size: 1.2rem;
+        color: white;
+        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+        text-decoration: none;
+    }
+
+    .fila {
+        height: 50rem;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 9rem 9rem;
+    }
+    
+    .izquierda, .derecha {
+        align-self: center;
+    }
+    
+    .izquierda {
+        justify-self: end;
+    }
+    
+    .derecha {
+        justify-self: start;
+    }
+    
+    .derecha h3 {
+        font-family: "MontserratSB";
+        font-size: 1.5rem;
+        font-weight: 500;
+        color:#B79269;
+        margin: 0;
+        padding-bottom: 10px;
+    }
+    
+    .derecha p {
+        font-family: "CalibriItalic";
+        font-size: 1.3rem;
+        font-weight: 500;
+        width: 27rem;
+        color:#B79269;
+        margin: 0;
+        padding-bottom: 35px;
+    }
+
+    #Panel3 {
+        background-color: #DCC9B4;
+        height: 26rem;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .Review1,
+    .Review2,
+    .Review3 {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+        width: 20%;
+        box-sizing: border-box;
+        margin: 0 auto;
+    }
+    
+    .Review1 h3,
+    .Review2 h3,
+    .Review3 h3 {
+        font-family: "MontserratSB";
+        font-size: 1.5rem;
+        width: 380px;
+        color: #B79269;
+    }
+    
+    .Review1 p,
+    .Review2 p,
+    .Review3 p {
+        text-shadow: 1px 0px 2px rgba(183, 146, 105, 0.3);
+        font-family: "CalibriItalic";
+        font-weight: bold;
+        font-size: 1.1rem;
+        width: 300px;
+        color: #B79269;
+    }
+    
+    .Review1 img,
+    .Review2 img,
+    .Review3 img {
+        width: 7rem;
+        height: 7rem;
+        border: 2px solid #B79269;
+        border-radius: 50%;
+        box-shadow: 0px 0px 20px 3px rgba(183, 146, 105, 0.9);
+    }
+    
+    #Estrellas1,
+    #Estrellas2,
+    #Estrellas3 {
+        color: orange;
+        font-size: 0.8rem;
+        padding-bottom: 1px;
+    }
+    
+    #Panel4 {
+        background-color: #F8F0E5;
+        height: auto;
+        min-height: 70rem;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    #subt {
+        color: #B79269;
+        text-align: center;
+        justify-self: center;
+        font-family:"CalibriItalic";
+        font-weight: 500;
+        width: 580px;
+        font-size: 1.5rem;
+        margin-top: -15px;
+    }
+    
+    #preg {
+        color: #B79269;
+        text-align: center;
+        font-family:"MontserratSB";
+        font-size: 2rem;
+        width: 35rem;
+        font-weight: 500;
+        padding-top: 20px;
+        padding-bottom: 10px;
+    }
+       
+    .acordeon h2 {
+            font-family: "MontserratSB";
+            font-size: 1.4rem;
+            font-weight: 500;
+            color: #B79269;
+            width: 50rem;
+            background-color: #EADBC8;
+            border-radius: 10px;
+            padding: 2rem;
+            margin: 1.2rem;
+            border: 2px solid #FFE0BE;
+            z-index: 2;
+            position: relative;
+    }
+        
+    .acordeon .contenido {
+            width:50rem;
+            font-family: "Calibri1";
+            font-size: 1rem;
+            color: #84592A;
+            font-weight: 500;
+            background-color: #FCE7CB;
+            border-right: 0px solid #FFE0BE;
+            border-left: 0px solid #FFE0BE;
+            border-bottom: 0px solid #FFE0BE;
+            border-radius: 10px;
+            padding: 0;
+            height: 0;
+            opacity: 0;
+            margin: 0.5rem;
+            margin-top: -25px;
+            z-index: 1;
+            position: relative;
+            transition: all 0.5s ease-in-out;
+            overflow-block: hidden;
+    }
+    
+    .acordeon .contenido.activo {
+        border-right: 2px solid #FFE0BE;
+        border-left: 2px solid #FFE0BE;
+        border-bottom: 2px solid #FFE0BE;
+        padding: 1rem;
+        height: auto;
+        opacity: 100;
+        transition: all 0.5s ease-in-out;
+    }
+    
+
+    #Panel4 button a {
+        font-family: "PoppinsB";
+        font-size: 1rem;
+        padding: 10px;
+        color: white;
+        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+        text-decoration: none;
+    }
+    
+    #Panel4 button {
+        margin: 25px auto;
+        display: flex;
+        padding-right: 20px;
+        padding-left: 20px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        background-color: #DAC0A3;
+        border-radius: 15px;
+        border-color: #FFE0BE;
+        border-style: solid;
+        box-shadow: 0 0 0 transparent;
+    }
+
+    #Panel5 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        background-color: #DCC9B4;
+        width: auto;
+    }
+    
+    #Panel5 h2 {
+        font-family: "MontserratSB";
+        font-size: 2rem;
+        color: #B79269;
+    }
+    
+    .Maps {
+        width: 70rem;
+        height: 25rem;
+        border: 2px solid #FFE0BE;
+        border-radius: 20px;
+    }
+
+    #Panel6 h2 {
+        text-align: center;
+    }
+    
+    #Panel6 p {
+        text-align: center;
+    }
+    
+    #Panel6 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 55rem;
+    }
+    
+    #Panel6 h2 {
+        font-family: "MontserratSB";
+        font-size: 2rem;
+        color: #B79269;
+        margin-top: -20px;
+    }
+    
+    #Panel6 p {
+        font-family:"Calibri1";
+        font-weight: 500;
+        font-size: 1.2rem;
+        color: #B79269;
+        width: 500px;
+        padding-top: 25px;
+    }
+    #Panel6 a {
+        color: #B79269;
+    }
+    
+    .Formulario {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-color: #DCC9B4;
+        border: none;
+        border-radius: 10px;
+        margin: 0 auto;
+        padding: 15px;
+        width: 35rem;
+        height: 30rem;
+    }
+    
+    .item {
+        padding: 10px;
+        margin-bottom: 10px;
+        border: 2px solid #ccc;
+        border-radius: 10px;
+        font-size: 15px;
+      }
+    
+    .sec1 .item {
+        font-family: "MontserratSB";
+        font-size: 1rem;
+        width: 12rem;
+        background-color: #EADBC8;
+        border: 1px solid #FFE0BE;
+        padding: 25px;
+        margin: 10px;
+        animation: all 0.5s ease;
+      }
+    
+    .sec2 .item {
+        font-family: "MontserratSB";
+        font-size: 1rem;
+        width: 12rem;
+        background-color: #EADBC8;
+        border: 1px solid #FFE0BE;
+        padding: 25px;
+        margin: 10px;
+        animation: all 0.5s ease;
+      }
+    
+    .Formu1 textarea{
+        font-family: "MontserratSB";
+        font-size: 1rem;
+        text-indent: 0.5rem;
+        line-height: 2rem;
+        margin: 13px;
+        width: 30.5rem;
+        height: 12rem;
+        background-color: #EADBC8;
+        border: 1px solid #FFE0BE;
+        resize: none;
+    }
+    
+      #Panel6 button {
+        font-family: "PoppinsB";
+        font-size: 0.8rem;
+        color: white;
+        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+        text-decoration: none;
+        margin: 5px;
+        margin-bottom: -5px;
+        display: flex;
+        padding-right: 30px;
+        padding-left: 30px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        background-color: #DAC0A3;
+        border-radius: 15px;
+        border-color: #FFE0BE;
+        border-style: solid;
+    }
+    
+    #Créditos {
+        text-align: center;
+        font-family:"Calibri1";
+        font-weight: 500;
+        font-size: 0.8rem;
+        color: #B79269;
+        margin-top: -30px;
+        margin-bottom: 10px;
+        width: 20rem;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    #Créditos p {
+        margin: 5px 0;
+    }
+
+}
+
+
+@media (max-width: 1024px) {
+
+#Panel1 {
+        background-color: #DCC9B4;
+        height: 55rem;
+        display: grid;
+        align-items: center;
+        clip-path: polygon(100% 0%, 0% 0% , 0.00% 89.27%, 2.50% 88.75%, 5.00% 88.24%, 7.50% 87.76%, 10.00% 87.35%, 12.50% 87.01%, 15.00% 86.79%, 17.50% 86.68%, 20.00% 86.69%, 22.50% 86.82%, 25.00% 87.07%, 27.50% 87.42%, 30.00% 87.85%, 32.50% 88.33%, 35.00% 88.85%, 37.50% 89.37%, 40.00% 89.86%, 42.50% 90.30%, 45.00% 90.66%, 47.50% 90.93%, 50.00% 91.08%, 52.50% 91.11%, 55.00% 91.01%, 57.50% 90.80%, 60.00% 90.49%, 62.50% 90.08%, 65.00% 89.61%, 67.50% 89.10%, 70.00% 88.58%, 72.50% 88.07%, 75.00% 87.61%, 77.50% 87.22%, 80.00% 86.93%, 82.50% 86.74%, 85.00% 86.67%, 87.50% 86.72%, 90.00% 86.89%, 92.50% 87.17%, 95.00% 87.55%, 97.50% 88.00%, 100.00% 88.50%);
+    }
+    
+    #Título {
+        animation: bounceInAnimation 1s ease;
+        display: grid;
+        justify-content: center;
+        font-family: "PRIMETIME";
+        font-size: 6rem;
+        color:  #C59C6E ;
+        z-index: 1;
+    }
+    
+    #Almohadilla {
+        width: 450px;
+        height: 300px;
+        animation: bounceInAnimation 1.5s ease;
+        display: block;
+        margin: 0 auto;
+        margin-top: -160px;
+    
+    }
+    
+    #grupo1 h2 {
+        animation: bounceInAnimation 1s ease;
+        display: grid;
+        justify-content: center;
+        font-family: "PoppinsB";
+        font-weight: 600;
+        font-size: 2rem;
+        color: white;
+        text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.4)
+    }
+    
+    #grupo1 p {
+        animation: bounceInAnimation 1.5s ease;
+        margin: 0 auto;
+        margin-top: -10px;
+        align-items: center;
+        text-align: center;
+        font-family: "PoppinsR";
+        font-weight:400;
+        font-size: 1.2rem;
+        max-width: 30rem;
+        color: #B79269;
+    }
+    
+    #grupo1 button {
+        animation: bounceInAnimation 1s ease;
+        margin: 40px auto;
+        display: flex;
+        padding-right: 30px;
+        padding-left: 30px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        background-color: #DAC0A3;
+        border-radius: 10px;
+        border-color: #FFE0BE;
+        border-style: 2px solid;
+        box-shadow: 0 0 0 transparent;
+    }
+    
+    #grupo1 a {
+        font-family: "PoppinsB";
+        font-size: 1.2rem;
+        color: white;
+        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+        text-decoration: none;
+    }
+
+    .fila {
+        height: 50rem;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 4rem 4rem;
+    }
+    
+    .izquierda, .derecha {
+        align-self: center;
+    }
+    
+    .izquierda {
+        justify-self: end;
+    }
+    
+    .derecha {
+        justify-self: start;
+    }
+    
+    .derecha h3 {
+        font-family: "MontserratSB";
+        font-size: 1.2rem;
+        font-weight: 500;
+        color:#B79269;
+        margin: 0;
+        padding-bottom: 10px;
+    }
+    
+    .derecha p {
+        font-family: "CalibriItalic";
+        font-size: 1.3rem;
+        font-weight: 500;
+        width: 23rem;
+        color:#B79269;
+        margin: 0;
+        padding-bottom: 35px;
+    }
+
+    #Panel3 {
+        background-color: #DCC9B4;
+        height: 23rem;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .Review1,
+    .Review2,
+    .Review3 {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+        width: 20%;
+        box-sizing: border-box;
+        margin: 0 auto;
+    }
+    
+    .Review1 h3,
+    .Review2 h3,
+    .Review3 h3 {
+        font-family: "MontserratSB";
+        font-size: 1.5rem;
+        width: 320px;
+        color: #B79269;
+    }
+    
+    .Review1 p,
+    .Review2 p,
+    .Review3 p {
+        text-shadow: 1px 0px 2px rgba(183, 146, 105, 0.3);
+        font-family: "CalibriItalic";
+        font-weight: bold;
+        font-size: 1rem;
+        width: 300px;
+        color: #B79269;
+    }
+    
+    .Review1 img,
+    .Review2 img,
+    .Review3 img {
+        width: 6rem;
+        height: 6rem;
+        border: 2px solid #B79269;
+        border-radius: 50%;
+        box-shadow: 0px 0px 20px 3px rgba(183, 146, 105, 0.9);
+    }
+    
+    #Estrellas1,
+    #Estrellas2,
+    #Estrellas3 {
+        color: orange;
+        font-size: 0.8rem;
+        padding-bottom: 10px;
+    }
+    
+    #Panel4 {
+        background-color: #F8F0E5;
+        height: auto;
+        min-height: 68rem;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    #subt {
+        color: #B79269;
+        text-align: center;
+        justify-self: center;
+        font-family:"CalibriItalic";
+        font-weight: 500;
+        width: 450px;
+        font-size: 1.3rem;
+        margin-top: -15px;
+    }
+    
+    #preg {
+        color: #B79269;
+        text-align: center;
+        font-family:"MontserratSB";
+        font-size: 1.5rem;
+        width: 400px;
+        font-weight: 500;
+        padding-top: 20px;
+        padding-bottom: 10px;
+    }
+       
+    .acordeon h2 {
+            font-family: "MontserratSB";
+            font-size: 1rem;
+            font-weight: 500;
+            color: #B79269;
+            width: 30rem;
+            background-color: #EADBC8;
+            border-radius: 10px;
+            padding: 2rem;
+            margin: 1.2rem;
+            border: 2px solid #FFE0BE;
+            z-index: 2;
+            position: relative;
+    }
+        
+    .acordeon .contenido {
+            width:30rem;
+            font-family: "Calibri1";
+            font-size: 1rem;
+            color: #84592A;
+            font-weight: 500;
+            background-color: #FCE7CB;
+            border-right: 0px solid #FFE0BE;
+            border-left: 0px solid #FFE0BE;
+            border-bottom: 0px solid #FFE0BE;
+            border-radius: 10px;
+            padding: 0;
+            height: 0;
+            opacity: 0;
+            margin: 0.5rem;
+            margin-top: -25px;
+            z-index: 1;
+            position: relative;
+            transition: all 0.5s ease-in-out;
+            overflow-block: hidden;
+    }
+    
+    .acordeon .contenido.activo {
+        border-right: 2px solid #FFE0BE;
+        border-left: 2px solid #FFE0BE;
+        border-bottom: 2px solid #FFE0BE;
+        padding: 1rem;
+        height: auto;
+        opacity: 100;
+        transition: all 0.5s ease-in-out;
+    }
+    
+
+    #Panel4 button a {
+        font-family: "PoppinsB";
+        font-size: 1rem;
+        padding: 10px;
+        color: white;
+        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+        text-decoration: none;
+    }
+    
+    #Panel4 button {
+        margin: 25px auto;
+        display: flex;
+        padding-right: 20px;
+        padding-left: 20px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        background-color: #DAC0A3;
+        border-radius: 15px;
+        border-color: #FFE0BE;
+        border-style: solid;
+        box-shadow: 0 0 0 transparent;
+    }
+
+    #Panel5 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        background-color: #DCC9B4;
+        width: auto;
+    }
+    
+    #Panel5 h2 {
+        font-family: "MontserratSB";
+        font-size: 2rem;
+        color: #B79269;
+    }
+    
+    .Maps {
+        width: 50rem;
+        height: 20rem;
+        border: 2px solid #FFE0BE;
+        border-radius: 20px;
+    }
+
+    #Panel6 h2 {
+        text-align: center;
+    }
+    
+    #Panel6 p {
+        text-align: center;
+    }
+    
+    #Panel6 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 55rem;
+    }
+    
+    #Panel6 h2 {
+        font-family: "MontserratSB";
+        font-size: 2rem;
+        color: #B79269;
+        margin-top: -20px;
+    }
+    
+    #Panel6 p {
+        font-family:"Calibri1";
+        font-weight: 500;
+        font-size: 1.2rem;
+        color: #B79269;
+        width: 500px;
+        padding-top: 25px;
+    }
+    #Panel6 a {
+        color: #B79269;
+    }
+    
+    .Formulario {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-color: #DCC9B4;
+        border: none;
+        border-radius: 10px;
+        margin: 0 auto;
+        padding: 15px;
+        width: 35rem;
+        height: 30rem;
+    }
+    
+    .item {
+        padding: 10px;
+        margin-bottom: 10px;
+        border: 2px solid #ccc;
+        border-radius: 10px;
+        font-size: 15px;
+      }
+    
+    .sec1 .item {
+        font-family: "MontserratSB";
+        font-size: 1rem;
+        width: 12rem;
+        background-color: #EADBC8;
+        border: 1px solid #FFE0BE;
+        padding: 25px;
+        margin: 10px;
+        animation: all 0.5s ease;
+      }
+    
+    .sec2 .item {
+        font-family: "MontserratSB";
+        font-size: 1rem;
+        width: 12rem;
+        background-color: #EADBC8;
+        border: 1px solid #FFE0BE;
+        padding: 25px;
+        margin: 10px;
+        animation: all 0.5s ease;
+      }
+    
+    .Formu1 textarea{
+        font-family: "MontserratSB";
+        font-size: 1rem;
+        text-indent: 0.5rem;
+        line-height: 2rem;
+        margin: 13px;
+        width: 30.5rem;
+        height: 12rem;
+        background-color: #EADBC8;
+        border: 1px solid #FFE0BE;
+        resize: none;
+    }
+    
+      #Panel6 button {
+        font-family: "PoppinsB";
+        font-size: 0.8rem;
+        color: white;
+        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+        text-decoration: none;
+        margin: 5px;
+        margin-bottom: -5px;
+        display: flex;
+        padding-right: 30px;
+        padding-left: 30px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        background-color: #DAC0A3;
+        border-radius: 15px;
+        border-color: #FFE0BE;
+        border-style: solid;
+    }
+    
+    #Créditos {
+        text-align: center;
+        font-family:"Calibri1";
+        font-weight: 500;
+        font-size: 0.8rem;
+        color: #B79269;
+        margin-top: -30px;
+        margin-bottom: 10px;
+        width: 20rem;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    #Créditos p {
+        margin: 5px 0;
+    }
+
+}
+
+
+@media (max-width: 768px) {
+    header {
+        animation-name: FadeIn;
+        animation-duration: 1s;
+        animation-timing-function: ease-in;
+        animation-delay: 0s;
+        animation-iteration-count: 1;
+        animation-direction: normal;
+        animation-fill-mode: none;
+        background-color: #EADBC8;
+        border-end-end-radius: 15px;
+        border-end-start-radius: 15px;
+        box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+        border: 3px solid #DAC0A3;
+        padding: 13px;
+        position: fixed;
+        top: -2px;
+        left: 50%;
+        transform:translateX(-50%);
+        width: 340px;
+        text-align: center;
+        font-size: 0.8rem;
+        z-index: 10;
+    
+    }
+
+    #Panel1 {
+        background-color: #DCC9B4;
+        height: 50rem;
+        display: grid;
+        align-items: center;
+        clip-path: polygon(100% 0%, 0% 0% , 0.00% 89.27%, 2.50% 88.75%, 5.00% 88.24%, 7.50% 87.76%, 10.00% 87.35%, 12.50% 87.01%, 15.00% 86.79%, 17.50% 86.68%, 20.00% 86.69%, 22.50% 86.82%, 25.00% 87.07%, 27.50% 87.42%, 30.00% 87.85%, 32.50% 88.33%, 35.00% 88.85%, 37.50% 89.37%, 40.00% 89.86%, 42.50% 90.30%, 45.00% 90.66%, 47.50% 90.93%, 50.00% 91.08%, 52.50% 91.11%, 55.00% 91.01%, 57.50% 90.80%, 60.00% 90.49%, 62.50% 90.08%, 65.00% 89.61%, 67.50% 89.10%, 70.00% 88.58%, 72.50% 88.07%, 75.00% 87.61%, 77.50% 87.22%, 80.00% 86.93%, 82.50% 86.74%, 85.00% 86.67%, 87.50% 86.72%, 90.00% 86.89%, 92.50% 87.17%, 95.00% 87.55%, 97.50% 88.00%, 100.00% 88.50%);
+    }
+    
+    #Título {
+        animation: bounceInAnimation 1s ease;
+        display: grid;
+        justify-content: center;
+        font-family: "PRIMETIME";
+        font-size: 3rem;
+        color:  #C59C6E ;
+        z-index: 1;
+    }
+    
+    #Almohadilla {
+        width: 200px;
+        height: 150px;
+        animation: bounceInAnimation 1.5s ease;
+        display: block;
+        margin: 0 auto;
+        margin-top: -80px;
+    
+    }
+    
+    #grupo1 h2 {
+        animation: bounceInAnimation 1s ease;
+        display: grid;
+        justify-content: center;
+        font-family: "PoppinsB";
+        font-weight: 600;
+        font-size: 1.5rem;
+        color: white;
+        text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.4)
+    }
+    
+    #grupo1 p {
+        animation: bounceInAnimation 1.5s ease;
+        margin: 0 auto;
+        margin-top: -10px;
+        align-items: center;
+        text-align: center;
+        font-family: "PoppinsR";
+        font-weight:400;
+        font-size: 1rem;
+        max-width: 25rem;
+        color: #B79269;
+    }
+    
+    #grupo1 button {
+        animation: bounceInAnimation 1s ease;
+        margin: 35px auto;
+        display: flex;
+        padding-right: 30px;
+        padding-left: 30px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        background-color: #DAC0A3;
+        border-radius: 10px;
+        border-color: #FFE0BE;
+        border-style: 2px solid;
+        box-shadow: 0 0 0 transparent;
+    }
+    
+    #grupo1 a {
+        font-family: "PoppinsB";
+        font-size: 0.8rem;
+        color: white;
+        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+        text-decoration: none;
+    }
+
+    .fila {
+        height: 50rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .izquierda img {
+        height: 300px;
+        width: 300px;
+        margin-bottom: -70px;
+    }
+    
+    .derecha {
+        text-align: center;
+    }
+    
+    .derecha h3 {
+        font-family: "MontserratSB";
+        font-size: 1rem;
+        font-weight: 500;
+        color: #B79269;
+        margin: 0;
+    }
+    
+    .derecha p {
+        font-family: "CalibriItalic";
+        font-size: 1rem;
+        font-weight: 500;
+        width: 20rem;
+        color: #B79269;
+    }
+
+    #Panel3 {
+        background-color: #DCC9B4;
+        height: 23rem;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .Review1,
+    .Review2,
+    .Review3 {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+        width: 20%;
+        box-sizing: border-box;
+        margin: 0 auto; /* Añade margen automático a los lados para centrar */
+    }
+    
+    .Review1 h3,
+    .Review2 h3,
+    .Review3 h3 {
+        font-family: "MontserratSB";
+        font-size: 0.8rem;
+        width: 220px;
+        color: #B79269;
+    }
+    
+    .Review1 p,
+    .Review2 p,
+    .Review3 p {
+        text-shadow: 1px 0px 2px rgba(183, 146, 105, 0.3);
+        font-family: "CalibriItalic";
+        font-weight: bold;
+        font-size: 0.8rem;
+        width: 150px;
+        color: #B79269;
+    }
+    
+    .Review1 img,
+    .Review2 img,
+    .Review3 img {
+        width: 4rem;
+        height: 4rem;
+        border: 2px solid #B79269;
+        border-radius: 50%;
+        box-shadow: 0px 0px 20px 3px rgba(183, 146, 105, 0.9);
+    }
+    
+    #Estrellas1,
+    #Estrellas2,
+    #Estrellas3 {
+        color: orange;
+        font-size: 0.4rem;
+        padding-bottom: 10px;
+    }
+    
+    #Panel4 {
+        background-color: #F8F0E5;
+        height: auto;
+        min-height: 68rem;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    #subt {
+        color: #B79269;
+        text-align: center;
+        justify-self: center;
+        font-family:"CalibriItalic";
+        font-weight: 500;
+        width: 320px;
+        font-size: 1rem;
+        margin-top: -20px;
+    }
+    
+    #preg {
+        color: #B79269;
+        text-align: center;
+        font-family:"MontserratSB";
+        font-size: 1.2rem;
+        width: 360px;
+        font-weight: 500;
+        padding: 15px;
+    }
+       
+    .acordeon h2 {
+            font-family: "MontserratSB";
+            font-size: 0.9rem;
+            font-weight: 500;
+            color: #B79269;
+            width: 15rem;
+            background-color: #EADBC8;
+            border-radius: 10px;
+            padding: 2rem;
+            margin: 1.2rem;
+            border: 2px solid #FFE0BE;
+            z-index: 2;
+            position: relative;
+    }
+        
+    .acordeon .contenido {
+            width:15rem;
+            font-family: "Calibri1";
+            font-size: 0.9rem;
+            color: #84592A;
+            font-weight: 500;
+            background-color: #FCE7CB;
+            border-right: 0px solid #FFE0BE;
+            border-left: 0px solid #FFE0BE;
+            border-bottom: 0px solid #FFE0BE;
+            border-radius: 10px;
+            padding: 0;
+            height: 0;
+            opacity: 0;
+            margin: 0.5rem;
+            margin-top: -25px;
+            z-index: 1;
+            position: relative;
+            transition: all 0.5s ease-in-out;
+            overflow-block: hidden;
+    }
+    
+    .acordeon .contenido.activo {
+        border-right: 2px solid #FFE0BE;
+        border-left: 2px solid #FFE0BE;
+        border-bottom: 2px solid #FFE0BE;
+        padding: 1rem;
+        height: auto;
+        opacity: 100;
+        transition: all 0.5s ease-in-out;
+    }
+    
+
+    #Panel4 button a {
+        font-family: "PoppinsB";
+        font-size: 1rem;
+        padding: 10px;
+        color: white;
+        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+        text-decoration: none;
+    }
+    
+    #Panel4 button {
+        margin: 25px auto;
+        display: flex;
+        padding-right: 20px;
+        padding-left: 20px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        background-color: #DAC0A3;
+        border-radius: 15px;
+        border-color: #FFE0BE;
+        border-style: solid;
+        box-shadow: 0 0 0 transparent;
+    }
+
+    #Panel5 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        background-color: #DCC9B4;
+        width: auto;
+    }
+    
+    #Panel5 h2 {
+        font-family: "MontserratSB";
+        font-size: 1.3rem;
+        color: #B79269;
+    }
+    
+    .Maps {
+        width: 40rem;
+        height: 15rem;
+        border: 2px solid #FFE0BE;
+        border-radius: 20px;
+    }
+
+    #Panel6 h2 {
+        text-align: center;
+    }
+    
+    #Panel6 p {
+        text-align: center;
+    }
+    
+    #Panel6 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 47rem;
+    }
+    
+    #Panel6 h2 {
+        font-family: "MontserratSB";
+        font-size: 1.5rem;
+        color: #B79269;
+        margin-top: -20px;
+    }
+    
+    #Panel6 p {
+        font-family:"Calibri1";
+        font-weight: 500;
+        font-size: 0.9rem;
+        color: #B79269;
+        width: 320px;
+        padding-top: 25px;
+    }
+    #Panel6 a {
+        color: #B79269;
+    }
+    
+    .Formulario {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-color: #DCC9B4;
+        border: none;
+        border-radius: 10px;
+        margin: 0 auto;
+        padding: 15px;
+        width: 24rem;
+        height: 25rem;
+    }
+    
+    .item {
+        padding: 10px;
+        margin-bottom: 10px;
+        border: 2px solid #ccc;
+        border-radius: 10px;
+        font-size: 15px;
+      }
+    
+    .sec1 .item {
+        font-family: "MontserratSB";
+        font-size: 0.7rem;
+        width: 8.5rem;
+        background-color: #EADBC8;
+        border: 1px solid #FFE0BE;
+        padding: 20px;
+        margin: 6px;
+        animation: all 0.5s ease;
+      }
+    
+    .sec2 .item {
+        font-family: "MontserratSB";
+        font-size: 0.7rem;
+        width: 8.5rem;
+        background-color: #EADBC8;
+        border: 1px solid #FFE0BE;
+        padding: 20px;
+        margin: 6px;
+        animation: all 0.5s ease;
+      }
+    
+    .Formu1 textarea{
+        font-family: "MontserratSB";
+        font-size: 1rem;
+        text-indent: 0.5rem;
+        line-height: 2rem;
+        margin: 13px;
+        width: 22rem;
+        height: 9.5rem;
+        background-color: #EADBC8;
+        border: 1px solid #FFE0BE;
+        resize: none;
+    }
+    
+      #Panel6 button {
+        font-family: "PoppinsB";
+        font-size: 0.8rem;
+        color: white;
+        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+        text-decoration: none;
+        margin: 5px;
+        margin-bottom: -5px;
+        display: flex;
+        padding-right: 30px;
+        padding-left: 30px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        background-color: #DAC0A3;
+        border-radius: 15px;
+        border-color: #FFE0BE;
+        border-style: solid;
+    }
+    
+    #Créditos {
+        text-align: center;
+        font-family:"Calibri1";
+        font-weight: 500;
+        font-size: 0.8rem;
+        color: #B79269;
+        margin-top: -30px;
+        margin-bottom: 10px;
+        width: 20rem;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    #Créditos p {
+        margin: 5px 0;
+    }
+
+}
+
+@media (max-width: 720px) {
+    header {
+        animation-name: FadeIn;
+        animation-duration: 1s;
+        animation-timing-function: ease-in;
+        animation-delay: 0s;
+        animation-iteration-count: 1;
+        animation-direction: normal;
+        animation-fill-mode: none;
+        background-color: #EADBC8;
+        border-end-end-radius: 15px;
+        border-end-start-radius: 15px;
+        box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+        border: 3px solid #DAC0A3;
+        padding: 13px;
+        position: fixed;
+        top: -2px;
+        left: 50%;
+        transform:translateX(-50%);
+        width: 340px;
+        text-align: center;
+        font-size: 0.8rem;
+        z-index: 10;
+    
+    }
+
+    #Panel1 {
+        background-color: #DCC9B4;
+        height: 50rem;
+        display: grid;
+        align-items: center;
+        clip-path: polygon(100% 0%, 0% 0% , 0.00% 89.27%, 2.50% 88.75%, 5.00% 88.24%, 7.50% 87.76%, 10.00% 87.35%, 12.50% 87.01%, 15.00% 86.79%, 17.50% 86.68%, 20.00% 86.69%, 22.50% 86.82%, 25.00% 87.07%, 27.50% 87.42%, 30.00% 87.85%, 32.50% 88.33%, 35.00% 88.85%, 37.50% 89.37%, 40.00% 89.86%, 42.50% 90.30%, 45.00% 90.66%, 47.50% 90.93%, 50.00% 91.08%, 52.50% 91.11%, 55.00% 91.01%, 57.50% 90.80%, 60.00% 90.49%, 62.50% 90.08%, 65.00% 89.61%, 67.50% 89.10%, 70.00% 88.58%, 72.50% 88.07%, 75.00% 87.61%, 77.50% 87.22%, 80.00% 86.93%, 82.50% 86.74%, 85.00% 86.67%, 87.50% 86.72%, 90.00% 86.89%, 92.50% 87.17%, 95.00% 87.55%, 97.50% 88.00%, 100.00% 88.50%);
+    }
+    
+    #Título {
+        animation: bounceInAnimation 1s ease;
+        display: grid;
+        justify-content: center;
+        font-family: "PRIMETIME";
+        font-size: 3rem;
+        color:  #C59C6E ;
+        z-index: 1;
+    }
+    
+    #Almohadilla {
+        width: 200px;
+        height: 150px;
+        animation: bounceInAnimation 1.5s ease;
+        display: block;
+        margin: 0 auto;
+        margin-top: -80px;
+    
+    }
+    
+    #grupo1 h2 {
+        animation: bounceInAnimation 1s ease;
+        display: grid;
+        justify-content: center;
+        font-family: "PoppinsB";
+        font-weight: 600;
+        font-size: 1.5rem;
+        color: white;
+        text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.4)
+    }
+    
+    #grupo1 p {
+        animation: bounceInAnimation 1.5s ease;
+        margin: 0 auto;
+        margin-top: -10px;
+        align-items: center;
+        text-align: center;
+        font-family: "PoppinsR";
+        font-weight:400;
+        font-size: 1rem;
+        max-width: 25rem;
+        color: #B79269;
+    }
+    
+    #grupo1 button {
+        animation: bounceInAnimation 1s ease;
+        margin: 35px auto;
+        display: flex;
+        padding-right: 30px;
+        padding-left: 30px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        background-color: #DAC0A3;
+        border-radius: 10px;
+        border-color: #FFE0BE;
+        border-style: 2px solid;
+        box-shadow: 0 0 0 transparent;
+    }
+    
+    #grupo1 a {
+        font-family: "PoppinsB";
+        font-size: 0.8rem;
+        color: white;
+        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+        text-decoration: none;
+    }
+
+    .fila {
+        height: 50rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .izquierda img {
+        height: 300px;
+        width: 300px;
+        margin-bottom: -70px;
+    }
+    
+    .derecha {
+        text-align: center;
+    }
+    
+    .derecha h3 {
+        font-family: "MontserratSB";
+        font-size: 1rem;
+        font-weight: 500;
+        color: #B79269;
+        margin: 0;
+    }
+    
+    .derecha p {
+        font-family: "CalibriItalic";
+        font-size: 1rem;
+        font-weight: 500;
+        width: 20rem;
+        color: #B79269;
+    }
+
+    #Panel3 {
+        background-color: #DCC9B4;
+        height: 23rem;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .Review1,
+    .Review2,
+    .Review3 {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+        width: 20%;
+        box-sizing: border-box;
+        margin: 0 auto; /* Añade margen automático a los lados para centrar */
+    }
+    
+    .Review1 h3,
+    .Review2 h3,
+    .Review3 h3 {
+        font-family: "MontserratSB";
+        font-size: 0.8rem;
+        width: 140px;
+        color: #B79269;
+    }
+    
+    .Review1 p,
+    .Review2 p,
+    .Review3 p {
+        text-shadow: 1px 0px 2px rgba(183, 146, 105, 0.3);
+        font-family: "CalibriItalic";
+        font-weight: bold;
+        font-size: 0.8rem;
+        width: 125px;
+        color: #B79269;
+    }
+    
+    .Review1 img,
+    .Review2 img,
+    .Review3 img {
+        width: 4rem;
+        height: 4rem;
+        border: 2px solid #B79269;
+        border-radius: 50%;
+        box-shadow: 0px 0px 20px 3px rgba(183, 146, 105, 0.9);
+    }
+    
+    #Estrellas1,
+    #Estrellas2,
+    #Estrellas3 {
+        color: orange;
+        font-size: 0.4rem;
+        padding-bottom: 10px;
+    }
+    
+    #Panel4 {
+        background-color: #F8F0E5;
+        height: auto;
+        min-height: 68rem;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    #subt {
+        color: #B79269;
+        text-align: center;
+        justify-self: center;
+        font-family:"CalibriItalic";
+        font-weight: 500;
+        width: 320px;
+        font-size: 1rem;
+        margin-top: -20px;
+    }
+    
+    #preg {
+        color: #B79269;
+        text-align: center;
+        font-family:"MontserratSB";
+        font-size: 1.2rem;
+        width: 360px;
+        font-weight: 500;
+        padding: 15px;
+    }
+       
+    .acordeon h2 {
+            font-family: "MontserratSB";
+            font-size: 0.9rem;
+            font-weight: 500;
+            color: #B79269;
+            width: 15rem;
+            background-color: #EADBC8;
+            border-radius: 10px;
+            padding: 2rem;
+            margin: 1.2rem;
+            border: 2px solid #FFE0BE;
+            z-index: 2;
+            position: relative;
+    }
+        
+    .acordeon .contenido {
+            width:15rem;
+            font-family: "Calibri1";
+            font-size: 0.9rem;
+            color: #84592A;
+            font-weight: 500;
+            background-color: #FCE7CB;
+            border-right: 0px solid #FFE0BE;
+            border-left: 0px solid #FFE0BE;
+            border-bottom: 0px solid #FFE0BE;
+            border-radius: 10px;
+            padding: 0;
+            height: 0;
+            opacity: 0;
+            margin: 0.5rem;
+            margin-top: -25px;
+            z-index: 1;
+            position: relative;
+            transition: all 0.5s ease-in-out;
+            overflow-block: hidden;
+    }
+    
+    .acordeon .contenido.activo {
+        border-right: 2px solid #FFE0BE;
+        border-left: 2px solid #FFE0BE;
+        border-bottom: 2px solid #FFE0BE;
+        padding: 1rem;
+        height: auto;
+        opacity: 100;
+        transition: all 0.5s ease-in-out;
+    }
+    
+
+    #Panel4 button a {
+        font-family: "PoppinsB";
+        font-size: 1rem;
+        padding: 10px;
+        color: white;
+        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+        text-decoration: none;
+    }
+    
+    #Panel4 button {
+        margin: 25px auto;
+        display: flex;
+        padding-right: 20px;
+        padding-left: 20px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        background-color: #DAC0A3;
+        border-radius: 15px;
+        border-color: #FFE0BE;
+        border-style: solid;
+        box-shadow: 0 0 0 transparent;
+    }
+
+    #Panel5 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        background-color: #DCC9B4;
+        width: auto;
+    }
+    
+    #Panel5 h2 {
+        font-family: "MontserratSB";
+        font-size: 1.3rem;
+        color: #B79269;
+    }
+    
+    .Maps {
+        width: 25rem;
+        height: 13rem;
+        border: 2px solid #FFE0BE;
+        border-radius: 20px;
+    }
+
+    #Panel6 h2 {
+        text-align: center;
+    }
+    
+    #Panel6 p {
+        text-align: center;
+    }
+    
+    #Panel6 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 47rem;
+    }
+    
+    #Panel6 h2 {
+        font-family: "MontserratSB";
+        font-size: 1.5rem;
+        color: #B79269;
+        margin-top: -20px;
+    }
+    
+    #Panel6 p {
+        font-family:"Calibri1";
+        font-weight: 500;
+        font-size: 0.9rem;
+        color: #B79269;
+        width: 320px;
+        padding-top: 25px;
+    }
+    #Panel6 a {
+        color: #B79269;
+    }
+    
+    .Formulario {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-color: #DCC9B4;
+        border: none;
+        border-radius: 10px;
+        margin: 0 auto;
+        padding: 15px;
+        width: 24rem;
+        height: 25rem;
+    }
+    
+    .item {
+        padding: 10px;
+        margin-bottom: 10px;
+        border: 2px solid #ccc;
+        border-radius: 10px;
+        font-size: 15px;
+      }
+    
+    .sec1 .item {
+        font-family: "MontserratSB";
+        font-size: 0.7rem;
+        width: 8.5rem;
+        background-color: #EADBC8;
+        border: 1px solid #FFE0BE;
+        padding: 20px;
+        margin: 6px;
+        animation: all 0.5s ease;
+      }
+    
+    .sec2 .item {
+        font-family: "MontserratSB";
+        font-size: 0.7rem;
+        width: 8.5rem;
+        background-color: #EADBC8;
+        border: 1px solid #FFE0BE;
+        padding: 20px;
+        margin: 6px;
+        animation: all 0.5s ease;
+      }
+    
+    .Formu1 textarea{
+        font-family: "MontserratSB";
+        font-size: 1rem;
+        text-indent: 0.5rem;
+        line-height: 2rem;
+        margin: 13px;
+        width: 22rem;
+        height: 9.5rem;
+        background-color: #EADBC8;
+        border: 1px solid #FFE0BE;
+        resize: none;
+    }
+    
+      #Panel6 button {
+        font-family: "PoppinsB";
+        font-size: 0.8rem;
+        color: white;
+        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+        text-decoration: none;
+        margin: 5px;
+        margin-bottom: -5px;
+        display: flex;
+        padding-right: 30px;
+        padding-left: 30px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        background-color: #DAC0A3;
+        border-radius: 15px;
+        border-color: #FFE0BE;
+        border-style: solid;
+    }
+    
+    #Créditos {
+        text-align: center;
+        font-family:"Calibri1";
+        font-weight: 500;
+        font-size: 0.8rem;
+        color: #B79269;
+        margin-top: -30px;
+        margin-bottom: 10px;
+        width: 20rem;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    #Créditos p {
+        margin: 5px 0;
+    }
+
+}
+
+
+@media (max-width: 640px) {
+    header {
+        animation-name: FadeIn;
+        animation-duration: 1s;
+        animation-timing-function: ease-in;
+        animation-delay: 0s;
+        animation-iteration-count: 1;
+        animation-direction: normal;
+        animation-fill-mode: none;
+        background-color: #EADBC8;
+        border-end-end-radius: 15px;
+        border-end-start-radius: 15px;
+        box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+        border: 3px solid #DAC0A3;
+        padding: 13px;
+        position: fixed;
+        top: -2px;
+        left: 50%;
+        transform:translateX(-50%);
+        width: 340px;
+        text-align: center;
+        font-size: 0.8rem;
+        z-index: 10;
+    
+    }
+
+    #Panel1 {
+        background-color: #DCC9B4;
+        height: 50rem;
+        display: grid;
+        align-items: center;
+        clip-path: polygon(100% 0%, 0% 0% , 0.00% 89.27%, 2.50% 88.75%, 5.00% 88.24%, 7.50% 87.76%, 10.00% 87.35%, 12.50% 87.01%, 15.00% 86.79%, 17.50% 86.68%, 20.00% 86.69%, 22.50% 86.82%, 25.00% 87.07%, 27.50% 87.42%, 30.00% 87.85%, 32.50% 88.33%, 35.00% 88.85%, 37.50% 89.37%, 40.00% 89.86%, 42.50% 90.30%, 45.00% 90.66%, 47.50% 90.93%, 50.00% 91.08%, 52.50% 91.11%, 55.00% 91.01%, 57.50% 90.80%, 60.00% 90.49%, 62.50% 90.08%, 65.00% 89.61%, 67.50% 89.10%, 70.00% 88.58%, 72.50% 88.07%, 75.00% 87.61%, 77.50% 87.22%, 80.00% 86.93%, 82.50% 86.74%, 85.00% 86.67%, 87.50% 86.72%, 90.00% 86.89%, 92.50% 87.17%, 95.00% 87.55%, 97.50% 88.00%, 100.00% 88.50%);
+    }
+    
+    #Título {
+        animation: bounceInAnimation 1s ease;
+        display: grid;
+        justify-content: center;
+        font-family: "PRIMETIME";
+        font-size: 3rem;
+        color:  #C59C6E ;
+        z-index: 1;
+    }
+    
+    #Almohadilla {
+        width: 200px;
+        height: 150px;
+        animation: bounceInAnimation 1.5s ease;
+        display: block;
+        margin: 0 auto;
+        margin-top: -80px;
+    
+    }
+    
+    #grupo1 h2 {
+        animation: bounceInAnimation 1s ease;
+        display: grid;
+        justify-content: center;
+        font-family: "PoppinsB";
+        font-weight: 600;
+        font-size: 1.5rem;
+        color: white;
+        text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.4)
+    }
+    
+    #grupo1 p {
+        animation: bounceInAnimation 1.5s ease;
+        margin: 0 auto;
+        margin-top: -10px;
+        align-items: center;
+        text-align: center;
+        font-family: "PoppinsR";
+        font-weight:400;
+        font-size: 1rem;
+        max-width: 25rem;
+        color: #B79269;
+    }
+    
+    #grupo1 button {
+        animation: bounceInAnimation 1s ease;
+        margin: 35px auto;
+        display: flex;
+        padding-right: 30px;
+        padding-left: 30px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        background-color: #DAC0A3;
+        border-radius: 10px;
+        border-color: #FFE0BE;
+        border-style: 2px solid;
+        box-shadow: 0 0 0 transparent;
+    }
+    
+    #grupo1 a {
+        font-family: "PoppinsB";
+        font-size: 0.8rem;
+        color: white;
+        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+        text-decoration: none;
+    }
+
+    .fila {
+        height: 50rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .izquierda img {
+        height: 300px;
+        width: 300px;
+        margin-bottom: -70px;
+    }
+    
+    .derecha {
+        text-align: center;
+    }
+    
+    .derecha h3 {
+        font-family: "MontserratSB";
+        font-size: 1rem;
+        font-weight: 500;
+        color: #B79269;
+        margin: 0;
+    }
+    
+    .derecha p {
+        font-family: "CalibriItalic";
+        font-size: 1rem;
+        font-weight: 500;
+        width: 20rem;
+        color: #B79269;
+    }
+
+    #Panel3 {
+        background-color: #DCC9B4;
+        height: 23rem;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .Review1,
+    .Review2,
+    .Review3 {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+        width: 20%;
+        box-sizing: border-box;
+        margin: 0 auto; /* Añade margen automático a los lados para centrar */
+    }
+    
+    .Review1 h3,
+    .Review2 h3,
+    .Review3 h3 {
+        font-family: "MontserratSB";
+        font-size: 0.8rem;
+        width: 140px;
+        color: #B79269;
+    }
+    
+    .Review1 p,
+    .Review2 p,
+    .Review3 p {
+        text-shadow: 1px 0px 2px rgba(183, 146, 105, 0.3);
+        font-family: "CalibriItalic";
+        font-weight: bold;
+        font-size: 0.8rem;
+        width: 125px;
+        color: #B79269;
+    }
+    
+    .Review1 img,
+    .Review2 img,
+    .Review3 img {
+        width: 4rem;
+        height: 4rem;
+        border: 2px solid #B79269;
+        border-radius: 50%;
+        box-shadow: 0px 0px 20px 3px rgba(183, 146, 105, 0.9);
+    }
+    
+    #Estrellas1,
+    #Estrellas2,
+    #Estrellas3 {
+        color: orange;
+        font-size: 0.4rem;
+        padding-bottom: 10px;
+    }
+    
+    #Panel4 {
+        background-color: #F8F0E5;
+        height: auto;
+        min-height: 68rem;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    #subt {
+        color: #B79269;
+        text-align: center;
+        justify-self: center;
+        font-family:"CalibriItalic";
+        font-weight: 500;
+        width: 320px;
+        font-size: 1rem;
+        margin-top: -20px;
+    }
+    
+    #preg {
+        color: #B79269;
+        text-align: center;
+        font-family:"MontserratSB";
+        font-size: 1.2rem;
+        width: 360px;
+        font-weight: 500;
+        padding: 15px;
+    }
+       
+    .acordeon h2 {
+            font-family: "MontserratSB";
+            font-size: 0.9rem;
+            font-weight: 500;
+            color: #B79269;
+            width: 15rem;
+            background-color: #EADBC8;
+            border-radius: 10px;
+            padding: 2rem;
+            margin: 1.2rem;
+            border: 2px solid #FFE0BE;
+            z-index: 2;
+            position: relative;
+    }
+        
+    .acordeon .contenido {
+            width:15rem;
+            font-family: "Calibri1";
+            font-size: 0.9rem;
+            color: #84592A;
+            font-weight: 500;
+            background-color: #FCE7CB;
+            border-right: 0px solid #FFE0BE;
+            border-left: 0px solid #FFE0BE;
+            border-bottom: 0px solid #FFE0BE;
+            border-radius: 10px;
+            padding: 0;
+            height: 0;
+            opacity: 0;
+            margin: 0.5rem;
+            margin-top: -25px;
+            z-index: 1;
+            position: relative;
+            transition: all 0.5s ease-in-out;
+            overflow-block: hidden;
+    }
+    
+    .acordeon .contenido.activo {
+        border-right: 2px solid #FFE0BE;
+        border-left: 2px solid #FFE0BE;
+        border-bottom: 2px solid #FFE0BE;
+        padding: 1rem;
+        height: auto;
+        opacity: 100;
+        transition: all 0.5s ease-in-out;
+    }
+    
+
+    #Panel4 button a {
+        font-family: "PoppinsB";
+        font-size: 1rem;
+        padding: 10px;
+        color: white;
+        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+        text-decoration: none;
+    }
+    
+    #Panel4 button {
+        margin: 25px auto;
+        display: flex;
+        padding-right: 20px;
+        padding-left: 20px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        background-color: #DAC0A3;
+        border-radius: 15px;
+        border-color: #FFE0BE;
+        border-style: solid;
+        box-shadow: 0 0 0 transparent;
+    }
+
+    #Panel5 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        background-color: #DCC9B4;
+        width: auto;
+    }
+    
+    #Panel5 h2 {
+        font-family: "MontserratSB";
+        font-size: 1.3rem;
+        color: #B79269;
+    }
+    
+    .Maps {
+        width: 25rem;
+        height: 13rem;
+        border: 2px solid #FFE0BE;
+        border-radius: 20px;
+    }
+
+    #Panel6 h2 {
+        text-align: center;
+    }
+    
+    #Panel6 p {
+        text-align: center;
+    }
+    
+    #Panel6 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 47rem;
+    }
+    
+    #Panel6 h2 {
+        font-family: "MontserratSB";
+        font-size: 1.5rem;
+        color: #B79269;
+        margin-top: -20px;
+    }
+    
+    #Panel6 p {
+        font-family:"Calibri1";
+        font-weight: 500;
+        font-size: 0.9rem;
+        color: #B79269;
+        width: 320px;
+        padding-top: 25px;
+    }
+    #Panel6 a {
+        color: #B79269;
+    }
+    
+    .Formulario {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-color: #DCC9B4;
+        border: none;
+        border-radius: 10px;
+        margin: 0 auto;
+        padding: 15px;
+        width: 24rem;
+        height: 25rem;
+    }
+    
+    .item {
+        padding: 10px;
+        margin-bottom: 10px;
+        border: 2px solid #ccc;
+        border-radius: 10px;
+        font-size: 15px;
+      }
+    
+    .sec1 .item {
+        font-family: "MontserratSB";
+        font-size: 0.7rem;
+        width: 8.5rem;
+        background-color: #EADBC8;
+        border: 1px solid #FFE0BE;
+        padding: 20px;
+        margin: 6px;
+        animation: all 0.5s ease;
+      }
+    
+    .sec2 .item {
+        font-family: "MontserratSB";
+        font-size: 0.7rem;
+        width: 8.5rem;
+        background-color: #EADBC8;
+        border: 1px solid #FFE0BE;
+        padding: 20px;
+        margin: 6px;
+        animation: all 0.5s ease;
+      }
+    
+    .Formu1 textarea{
+        font-family: "MontserratSB";
+        font-size: 1rem;
+        text-indent: 0.5rem;
+        line-height: 2rem;
+        margin: 13px;
+        width: 22rem;
+        height: 9.5rem;
+        background-color: #EADBC8;
+        border: 1px solid #FFE0BE;
+        resize: none;
+    }
+    
+      #Panel6 button {
+        font-family: "PoppinsB";
+        font-size: 0.8rem;
+        color: white;
+        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+        text-decoration: none;
+        margin: 5px;
+        margin-bottom: -5px;
+        display: flex;
+        padding-right: 30px;
+        padding-left: 30px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        background-color: #DAC0A3;
+        border-radius: 15px;
+        border-color: #FFE0BE;
+        border-style: solid;
+    }
+    
+    #Créditos {
+        text-align: center;
+        font-family:"Calibri1";
+        font-weight: 500;
+        font-size: 0.8rem;
+        color: #B79269;
+        margin-top: -30px;
+        margin-bottom: 10px;
+        width: 20rem;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    #Créditos p {
+        margin: 5px 0;
+    }
+
+}
+
+@media (max-width: 475px) {
+    
+    header {
+        animation-name: FadeIn;
+        animation-duration: 1s;
+        animation-timing-function: ease-in;
+        animation-delay: 0s;
+        animation-iteration-count: 1;
+        animation-direction: normal;
+        animation-fill-mode: none;
+        background-color: #EADBC8;
+        border-end-end-radius: 15px;
+        border-end-start-radius: 15px;
+        box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+        border: 3px solid #DAC0A3;
+        padding: 13px;
+        position: fixed;
+        top: -2px;
+        left: 50%;
+        transform:translateX(-50%);
+        width: 340px;
+        text-align: center;
+        font-size: 0.8rem;
+        z-index: 10;
+    
+    }
+
+    #Panel1 {
+        background-color: #DCC9B4;
+        height: 50rem;
+        display: grid;
+        align-items: center;
+        clip-path: polygon(100% 0%, 0% 0% , 0.00% 89.27%, 2.50% 88.75%, 5.00% 88.24%, 7.50% 87.76%, 10.00% 87.35%, 12.50% 87.01%, 15.00% 86.79%, 17.50% 86.68%, 20.00% 86.69%, 22.50% 86.82%, 25.00% 87.07%, 27.50% 87.42%, 30.00% 87.85%, 32.50% 88.33%, 35.00% 88.85%, 37.50% 89.37%, 40.00% 89.86%, 42.50% 90.30%, 45.00% 90.66%, 47.50% 90.93%, 50.00% 91.08%, 52.50% 91.11%, 55.00% 91.01%, 57.50% 90.80%, 60.00% 90.49%, 62.50% 90.08%, 65.00% 89.61%, 67.50% 89.10%, 70.00% 88.58%, 72.50% 88.07%, 75.00% 87.61%, 77.50% 87.22%, 80.00% 86.93%, 82.50% 86.74%, 85.00% 86.67%, 87.50% 86.72%, 90.00% 86.89%, 92.50% 87.17%, 95.00% 87.55%, 97.50% 88.00%, 100.00% 88.50%);
+    }
+    
+    #Título {
+        animation: bounceInAnimation 1s ease;
+        display: grid;
+        justify-content: center;
+        font-family: "PRIMETIME";
+        font-size: 3rem;
+        color:  #C59C6E ;
+        z-index: 1;
+    }
+    
+    #Almohadilla {
+        width: 200px;
+        height: 150px;
+        animation: bounceInAnimation 1.5s ease;
+        display: block;
+        margin: 0 auto;
+        margin-top: -80px;
+    
+    }
+    
+    #grupo1 h2 {
+        animation: bounceInAnimation 1s ease;
+        display: grid;
+        justify-content: center;
+        font-family: "PoppinsB";
+        font-weight: 600;
+        font-size: 1.5rem;
+        color: white;
+        text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.4)
+    }
+    
+    #grupo1 p {
+        animation: bounceInAnimation 1.5s ease;
+        margin: 0 auto;
+        margin-top: -10px;
+        align-items: center;
+        text-align: center;
+        font-family: "PoppinsR";
+        font-weight:400;
+        font-size: 1rem;
+        max-width: 25rem;
+        color: #B79269;
+    }
+    
+    #grupo1 button {
+        animation: bounceInAnimation 1s ease;
+        margin: 35px auto;
+        display: flex;
+        padding-right: 30px;
+        padding-left: 30px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        background-color: #DAC0A3;
+        border-radius: 10px;
+        border-color: #FFE0BE;
+        border-style: 2px solid;
+        box-shadow: 0 0 0 transparent;
+    }
+    
+    #grupo1 a {
+        font-family: "PoppinsB";
+        font-size: 0.8rem;
+        color: white;
+        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+        text-decoration: none;
+    }
+
+    .fila {
+        height: 50rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .izquierda img {
+        height: 300px;
+        width: 300px;
+        margin-bottom: -70px;
+    }
+    
+    .derecha {
+        text-align: center;
+    }
+    
+    .derecha h3 {
+        font-family: "MontserratSB";
+        font-size: 1rem;
+        font-weight: 500;
+        color: #B79269;
+        margin: 0;
+    }
+    
+    .derecha p {
+        font-family: "CalibriItalic";
+        font-size: 1rem;
+        font-weight: 500;
+        width: 20rem;
+        color: #B79269;
+    }
+
+    #Panel3 {
+        background-color: #DCC9B4;
+        height: 23rem;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .Review1,
+    .Review2,
+    .Review3 {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+        width: 20%;
+        box-sizing: border-box;
+        margin: 0 auto; /* Añade margen automático a los lados para centrar */
+    }
+    
+    .Review1 h3,
+    .Review2 h3,
+    .Review3 h3 {
+        font-family: "MontserratSB";
+        font-size: 0.8rem;
+        width: 140px;
+        color: #B79269;
+    }
+    
+    .Review1 p,
+    .Review2 p,
+    .Review3 p {
+        text-shadow: 1px 0px 2px rgba(183, 146, 105, 0.3);
+        font-family: "CalibriItalic";
+        font-weight: bold;
+        font-size: 0.8rem;
+        width: 125px;
+        color: #B79269;
+    }
+    
+    .Review1 img,
+    .Review2 img,
+    .Review3 img {
+        width: 4rem;
+        height: 4rem;
+        border: 2px solid #B79269;
+        border-radius: 50%;
+        box-shadow: 0px 0px 20px 3px rgba(183, 146, 105, 0.9);
+    }
+    
+    #Estrellas1,
+    #Estrellas2,
+    #Estrellas3 {
+        color: orange;
+        font-size: 0.4rem;
+        padding-bottom: 10px;
+    }
+    
+    #Panel4 {
+        background-color: #F8F0E5;
+        height: auto;
+        min-height: 68rem;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    #subt {
+        color: #B79269;
+        text-align: center;
+        justify-self: center;
+        font-family:"CalibriItalic";
+        font-weight: 500;
+        width: 320px;
+        font-size: 1rem;
+        margin-top: -20px;
+    }
+    
+    #preg {
+        color: #B79269;
+        text-align: center;
+        font-family:"MontserratSB";
+        font-size: 1.2rem;
+        width: 360px;
+        font-weight: 500;
+        padding: 15px;
+    }
+       
+    .acordeon h2 {
+            font-family: "MontserratSB";
+            font-size: 0.9rem;
+            font-weight: 500;
+            color: #B79269;
+            width: 15rem;
+            background-color: #EADBC8;
+            border-radius: 10px;
+            padding: 2rem;
+            margin: 1.2rem;
+            border: 2px solid #FFE0BE;
+            z-index: 2;
+            position: relative;
+    }
+        
+    .acordeon .contenido {
+            width:15rem;
+            font-family: "Calibri1";
+            font-size: 0.9rem;
+            color: #84592A;
+            font-weight: 500;
+            background-color: #FCE7CB;
+            border-right: 0px solid #FFE0BE;
+            border-left: 0px solid #FFE0BE;
+            border-bottom: 0px solid #FFE0BE;
+            border-radius: 10px;
+            padding: 0;
+            height: 0;
+            opacity: 0;
+            margin: 0.5rem;
+            margin-top: -25px;
+            z-index: 1;
+            position: relative;
+            transition: all 0.5s ease-in-out;
+            overflow-block: hidden;
+    }
+    
+    .acordeon .contenido.activo {
+        border-right: 2px solid #FFE0BE;
+        border-left: 2px solid #FFE0BE;
+        border-bottom: 2px solid #FFE0BE;
+        padding: 1rem;
+        height: auto;
+        opacity: 100;
+        transition: all 0.5s ease-in-out;
+    }
+    
+
+    #Panel4 button a {
+        font-family: "PoppinsB";
+        font-size: 1rem;
+        padding: 10px;
+        color: white;
+        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+        text-decoration: none;
+    }
+    
+    #Panel4 button {
+        margin: 25px auto;
+        display: flex;
+        padding-right: 20px;
+        padding-left: 20px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        background-color: #DAC0A3;
+        border-radius: 15px;
+        border-color: #FFE0BE;
+        border-style: solid;
+        box-shadow: 0 0 0 transparent;
+    }
+
+    #Panel5 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        background-color: #DCC9B4;
+        width: auto;
+    }
+    
+    #Panel5 h2 {
+        font-family: "MontserratSB";
+        font-size: 1.3rem;
+        color: #B79269;
+    }
+    
+    .Maps {
+        width: 25rem;
+        height: 13rem;
+        border: 2px solid #FFE0BE;
+        border-radius: 20px;
+    }
+
+    #Panel6 h2 {
+        text-align: center;
+    }
+    
+    #Panel6 p {
+        text-align: center;
+    }
+    
+    #Panel6 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 47rem;
+    }
+    
+    #Panel6 h2 {
+        font-family: "MontserratSB";
+        font-size: 1.5rem;
+        color: #B79269;
+        margin-top: -20px;
+    }
+    
+    #Panel6 p {
+        font-family:"Calibri1";
+        font-weight: 500;
+        font-size: 0.9rem;
+        color: #B79269;
+        width: 320px;
+        padding-top: 25px;
+    }
+    #Panel6 a {
+        color: #B79269;
+    }
+    
+    .Formulario {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-color: #DCC9B4;
+        border: none;
+        border-radius: 10px;
+        margin: 0 auto;
+        padding: 15px;
+        width: 24rem;
+        height: 25rem;
+    }
+    
+    .item {
+        padding: 10px;
+        margin-bottom: 10px;
+        border: 2px solid #ccc;
+        border-radius: 10px;
+        font-size: 15px;
+      }
+    
+    .sec1 .item {
+        font-family: "MontserratSB";
+        font-size: 0.7rem;
+        width: 8.5rem;
+        background-color: #EADBC8;
+        border: 1px solid #FFE0BE;
+        padding: 20px;
+        margin: 6px;
+        animation: all 0.5s ease;
+      }
+    
+    .sec2 .item {
+        font-family: "MontserratSB";
+        font-size: 0.7rem;
+        width: 8.5rem;
+        background-color: #EADBC8;
+        border: 1px solid #FFE0BE;
+        padding: 20px;
+        margin: 6px;
+        animation: all 0.5s ease;
+      }
+    
+    .Formu1 textarea{
+        font-family: "MontserratSB";
+        font-size: 1rem;
+        text-indent: 0.5rem;
+        line-height: 2rem;
+        margin: 13px;
+        width: 22rem;
+        height: 9.5rem;
+        background-color: #EADBC8;
+        border: 1px solid #FFE0BE;
+        resize: none;
+    }
+    
+      #Panel6 button {
+        font-family: "PoppinsB";
+        font-size: 0.8rem;
+        color: white;
+        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+        text-decoration: none;
+        margin: 5px;
+        margin-bottom: -5px;
+        display: flex;
+        padding-right: 30px;
+        padding-left: 30px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        background-color: #DAC0A3;
+        border-radius: 15px;
+        border-color: #FFE0BE;
+        border-style: solid;
+    }
+    
+    #Créditos {
+        text-align: center;
+        font-family:"Calibri1";
+        font-weight: 500;
+        font-size: 0.8rem;
+        color: #B79269;
+        margin-top: -30px;
+        margin-bottom: 10px;
+        width: 20rem;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    #Créditos p {
+        margin: 5px 0;
+    }
+
+}
+
+@media (max-width: 360px) {
+    
+    header {
+        animation-name: FadeIn;
+        animation-duration: 1s;
+        animation-timing-function: ease-in;
+        animation-delay: 0s;
+        animation-iteration-count: 1;
+        animation-direction: normal;
+        animation-fill-mode: none;
+        background-color: #EADBC8;
+        border-end-end-radius: 15px;
+        border-end-start-radius: 15px;
+        box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+        border: 3px solid #DAC0A3;
+        padding: 13px;
+        position: fixed;
+        top: -2px;
+        left: 50%;
+        transform:translateX(-50%);
+        width: 320px;
+        text-align: center;
+        font-size: 0.7rem;
+        z-index: 10;
+    
+    }
+
+    #Panel1 {
+        background-color: #DCC9B4;
+        height: 50rem;
+        display: grid;
+        align-items: center;
+        clip-path: polygon(100% 0%, 0% 0% , 0.00% 89.27%, 2.50% 88.75%, 5.00% 88.24%, 7.50% 87.76%, 10.00% 87.35%, 12.50% 87.01%, 15.00% 86.79%, 17.50% 86.68%, 20.00% 86.69%, 22.50% 86.82%, 25.00% 87.07%, 27.50% 87.42%, 30.00% 87.85%, 32.50% 88.33%, 35.00% 88.85%, 37.50% 89.37%, 40.00% 89.86%, 42.50% 90.30%, 45.00% 90.66%, 47.50% 90.93%, 50.00% 91.08%, 52.50% 91.11%, 55.00% 91.01%, 57.50% 90.80%, 60.00% 90.49%, 62.50% 90.08%, 65.00% 89.61%, 67.50% 89.10%, 70.00% 88.58%, 72.50% 88.07%, 75.00% 87.61%, 77.50% 87.22%, 80.00% 86.93%, 82.50% 86.74%, 85.00% 86.67%, 87.50% 86.72%, 90.00% 86.89%, 92.50% 87.17%, 95.00% 87.55%, 97.50% 88.00%, 100.00% 88.50%);
+    }
+    
+    #Título {
+        animation: bounceInAnimation 1s ease;
+        display: grid;
+        justify-content: center;
+        font-family: "PRIMETIME";
+        font-size: 2rem;
+        color:  #C59C6E ;
+        z-index: 1;
+    }
+    
+    #Almohadilla {
+        width: 200px;
+        height: 150px;
+        animation: bounceInAnimation 1.5s ease;
+        display: block;
+        margin: 0 auto;
+        margin-top: -60px;
+    
+    }
+    
+    #grupo1 h2 {
+        animation: bounceInAnimation 1s ease;
+        display: grid;
+        justify-content: center;
+        font-family: "PoppinsB";
+        font-weight: 600;
+        font-size: 1.2rem;
+        color: white;
+        text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.4)
+    }
+    
+    #grupo1 p {
+        animation: bounceInAnimation 1.5s ease;
+        margin: 0 auto;
+        margin-top: -10px;
+        align-items: center;
+        text-align: center;
+        font-family: "PoppinsR";
+        font-weight:400;
+        font-size:0.9rem;
+        max-width: 30rem;
+        color: #B79269;
+    }
+    
+    #grupo1 button {
+        animation: bounceInAnimation 1s ease;
+        margin: 35px auto;
+        display: flex;
+        padding-right: 30px;
+        padding-left: 30px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        background-color: #DAC0A3;
+        border-radius: 10px;
+        border-color: #FFE0BE;
+        border-style: 2px solid;
+        box-shadow: 0 0 0 transparent;
+    }
+    
+    #grupo1 a {
+        font-family: "PoppinsB";
+        font-size: 0.8rem;
+        color: white;
+        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+        text-decoration: none;
+    }
+    
+    #grupo1 button:active {
+        outline: none;
+        transform: translateY(2px);
+        box-shadow: inset 0 0 4px rgba(0, 0, 0, 0.2);
+    }
+
+    .fila {
+        height: 50rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .izquierda img {
+        height: 300px;
+        width: 300px;
+        margin-bottom: -70px;
+    }
+    
+    .derecha {
+        text-align: center;
+    }
+    
+    .derecha h3 {
+        font-family: "MontserratSB";
+        font-size: 1rem;
+        font-weight: 500;
+        color: #B79269;
+        margin: 0;
+    }
+    
+    .derecha p {
+        font-family: "CalibriItalic";
+        font-size: 1rem;
+        font-weight: 500;
+        width: 20rem;
+        color: #B79269;
+    }
+
+    #Panel3 {
+        background-color: #DCC9B4;
+        height: 23rem;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .Review1,
+    .Review2,
+    .Review3 {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+        width: 20%;
+        box-sizing: border-box;
+        margin: 0 auto; /* Añade margen automático a los lados para centrar */
+    }
+    
+    .Review1 h3,
+    .Review2 h3,
+    .Review3 h3 {
+        font-family: "MontserratSB";
+        font-size: 0.8rem;
+        width: 100px;
+        color: #B79269;
+    }
+    
+    .Review1 p,
+    .Review2 p,
+    .Review3 p {
+        text-shadow: 1px 0px 2px rgba(183, 146, 105, 0.3);
+        font-family: "CalibriItalic";
+        font-weight: bold;
+        font-size: 0.8rem;
+        width: 100px;
+        color: #B79269;
+    }
+    
+    .Review1 img,
+    .Review2 img,
+    .Review3 img {
+        width: 4rem;
+        height: 4rem;
+        border: 2px solid #B79269;
+        border-radius: 50%;
+        box-shadow: 0px 0px 20px 3px rgba(183, 146, 105, 0.9);
+    }
+    
+    #Estrellas1,
+    #Estrellas2,
+    #Estrellas3 {
+        color: orange;
+        font-size: 5px;
+        padding-bottom: 10px
+    }
+    
+    #Panel4 {
+        background-color: #F8F0E5;
+        height: auto;
+        min-height: 68rem;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    #subt {
+        color: #B79269;
+        text-align: center;
+        justify-self: center;
+        font-family:"CalibriItalic";
+        font-weight: 500;
+        width: 320px;
+        font-size: 1rem;
+        margin-top: -20px;
+    }
+    
+    #preg {
+        color: #B79269;
+        text-align: center;
+        font-family:"MontserratSB";
+        font-size: 1.2rem;
+        width: 360px;
+        font-weight: 500;
+        padding: 15px;
+    }
+       
+    .acordeon h2 {
+            font-family: "MontserratSB";
+            font-size: 0.9rem;
+            font-weight: 500;
+            color: #B79269;
+            width: 15rem;
+            background-color: #EADBC8;
+            border-radius: 10px;
+            padding: 2rem;
+            margin: 1.2rem;
+            border: 2px solid #FFE0BE;
+            z-index: 2;
+            position: relative;
+    }
+        
+    .acordeon .contenido {
+            width:15rem;
+            font-family: "Calibri1";
+            font-size: 0.9rem;
+            color: #84592A;
+            font-weight: 500;
+            background-color: #FCE7CB;
+            border-right: 0px solid #FFE0BE;
+            border-left: 0px solid #FFE0BE;
+            border-bottom: 0px solid #FFE0BE;
+            border-radius: 10px;
+            padding: 0;
+            height: 0;
+            opacity: 0;
+            margin: 0.5rem;
+            margin-top: -25px;
+            z-index: 1;
+            position: relative;
+            transition: all 0.5s ease-in-out;
+            overflow-block: hidden;
+    }
+    
+    .acordeon .contenido.activo {
+        border-right: 2px solid #FFE0BE;
+        border-left: 2px solid #FFE0BE;
+        border-bottom: 2px solid #FFE0BE;
+        padding: 1rem;
+        height: auto;
+        opacity: 100;
+        transition: all 0.5s ease-in-out;
+    }
+    
+
+    #Panel4 button a {
+        font-family: "PoppinsB";
+        font-size: 1rem;
+        padding: 10px;
+        color: white;
+        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+        text-decoration: none;
+    }
+    
+    #Panel4 button {
+        margin: 25px auto;
+        display: flex;
+        padding-right: 20px;
+        padding-left: 20px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        background-color: #DAC0A3;
+        border-radius: 15px;
+        border-color: #FFE0BE;
+        border-style: solid;
+        box-shadow: 0 0 0 transparent;
+    }
+
+    #Panel5 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        background-color: #DCC9B4;
+        width: auto;
+    }
+    
+    #Panel5 h2 {
+        font-family: "MontserratSB";
+        font-size: 1.3rem;
+        color: #B79269;
+    }
+    
+    .Maps {
+        width: 20rem;
+        height: 10rem;
+        border: 2px solid #FFE0BE;
+        border-radius: 20px;
+    }
+
+    #Panel6 h2 {
+        text-align: center;
+    }
+    
+    #Panel6 p {
+        text-align: center;
+    }
+    
+    #Panel6 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 47rem;
+    }
+    
+    #Panel6 h2 {
+        font-family: "MontserratSB";
+        font-size: 1.5rem;
+        color: #B79269;
+        margin-top: -20px;
+    }
+    
+    #Panel6 p {
+        font-family:"Calibri1";
+        font-weight: 500;
+        font-size: 0.9rem;
+        color: #B79269;
+        width: 320px;
+        padding-top: 25px;
+    }
+    #Panel6 a {
+        color: #B79269;
+    }
+    
+    .Formulario {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-color: #DCC9B4;
+        border: none;
+        border-radius: 10px;
+        margin: 0 auto;
+        padding: 15px;
+        width: 5rem;
+        height: 25rem;
+    }
+    
+    .item {
+        padding: 10px;
+        margin-bottom: 10px;
+        border: 2px solid #ccc;
+        border-radius: 10px;
+        font-size: 15px;
+      }
+    
+    .sec1 .item {
+        font-family: "MontserratSB";
+        font-size: 0.7rem;
+        width: 5rem;
+        background-color: #EADBC8;
+        border: 1px solid #FFE0BE;
+        padding: 20px;
+        margin: 6px;
+        animation: all 0.5s ease;
+      }
+    
+    .sec2 .item {
+        font-family: "MontserratSB";
+        font-size: 0.7rem;
+        width: 5rem;
+        background-color: #EADBC8;
+        border: 1px solid #FFE0BE;
+        padding: 20px;
+        margin: 6px;
+        animation: all 0.5s ease;
+      }
+    
+    .Formu1 textarea{
+        font-family: "MontserratSB";
+        font-size: 1rem;
+        text-indent: 0.5rem;
+        line-height: 2rem;
+        margin: 13px;
+        width: 15rem;
+        height: 9rem;
+        background-color: #EADBC8;
+        border: 1px solid #FFE0BE;
+        resize: none;
+    }
+    
+      #Panel6 button {
+        font-family: "PoppinsB";
+        font-size: 1rem;
+        color: white;
+        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+        text-decoration: none;
+        margin: 10px;
+        display: flex;
+        padding-right: 30px;
+        padding-left: 30px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        background-color: #DAC0A3;
+        border-radius: 15px;
+        border-color: #FFE0BE;
+        border-style: solid;
+        box-shadow: 0 0 0 transparent;
+    }
+    
+    #Créditos {
+        text-align: center;
+        font-family:"Calibri1";
+        font-weight: 500;
+        font-size: 0.8rem;
+        color: #B79269;
+        margin-top: -30px;
+        margin-bottom: 10px;
+        width: 20rem;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    #Créditos p {
+        margin: 5px 0;
+    }
+    
+    
+}

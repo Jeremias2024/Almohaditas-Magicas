@@ -1,0 +1,7 @@
+User-agent: *
+Disallow: /procesar_formulario
+Disallow: /Admin
+Disallow: /private
+Disallow: /Assets
+Disallow: /styles.css
+Disallow: /script.js
